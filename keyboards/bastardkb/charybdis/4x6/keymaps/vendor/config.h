@@ -30,15 +30,12 @@
 
 #ifdef POINTING_DEVICE_ENABLE
 // Automatically enable the pointer layer when moving the trackball.
-#define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_ENABLE
+//#define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_ENABLE
 
 // Затримка перед вимкненням шару миші (1000 мс = 1 секунда)
-#define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_TIMEOUT_MS 1000
+//#define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_TIMEOUT_MS 1000
 // Поріг чутливості ("свідомий рух"). Дефолт = 8. 
 // Якщо шар вмикається випадково від найменшої вібрації, збільш цю цифру (наприклад, до 12-15).
-#define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_THRESHOLD 4
-// Automatically enable the pointer layer when moving the trackball.  See also:
-// - `CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_TIMEOUT_MS`
-// - `CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_THRESHOLD`
-// #define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_ENABLE
+//#define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_THRESHOLD 4
+
 #endif // POINTING_DEVICE_ENABLE
