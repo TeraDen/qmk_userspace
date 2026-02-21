@@ -36,7 +36,7 @@
 #define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_TIMEOUT_MS 1000
 // Поріг чутливості ("свідомий рух"). Дефолт = 8. 
 // Якщо шар вмикається випадково від найменшої вібрації, збільш цю цифру (наприклад, до 12-15).
-#define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_THRESHOLD 8
+#define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_THRESHOLD 4
 // Automatically enable the pointer layer when moving the trackball.  See also:
 // - `CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_TIMEOUT_MS`
 // - `CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_THRESHOLD`
